@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+#wrapper {
+    display: flex;
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    height: 100vh;
+    color: white;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 40%;
+}
+
+#signin {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a {
+    text-decoration: none;
+    display: block;
+    color: lightblue;
+    margin: 15px;
+}
+
+#showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 80%;
+}
+
+.hr-bar {
+    width: 90%;
+}
+
+#main-footer {
+    width: 80%;
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-footer a {
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.secondary-btn {
+    width: 100%;
+    background-color: gray;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+input {
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: lightblue;
+    border-style: none;
+    margin-top: 10px;
+}
+
+a.secondary-btn {
+    width: 90%;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
